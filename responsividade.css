@@ -1,0 +1,769 @@
+/* ===== SMARTPHONES (até 480px) ===== */
+@media (max-width: 480px) {
+
+    /* Menu e Header */
+    .menu {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .itens {
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .itens a {
+        font-size: 16px;
+    }
+
+    /* Container Principal */
+    .container {
+        margin-top: 30px;
+    }
+
+    .primavera img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+
+    .objetos {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .objetos p {
+        font-size: 18px;
+    }
+
+    div [class*=box] {
+        width: 90%;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    /* Frase */
+    .frase {
+        font-size: 24px;
+        margin: 30px 15px;
+        height: auto;
+        padding: 30px 15px;
+        line-height: 1.4;
+    }
+
+    /* Produtos */
+    h6 {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .hero2 {
+        min-height: auto;
+        max-height: none;
+    }
+
+    .produtos {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .produtos img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .acesse {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .acesse .btn {
+        width: 200px;
+    }
+
+    /* About */
+    .about {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .quemsomos h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .about .sobre {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .about .foto img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about .texto {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .rodape-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #rodapeimg img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .final {
+        gap: 20px;
+    }
+
+    .two {
+        margin-top: 0;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .two input {
+        width: 100%;
+        max-width: 280px;
+        font-size: 14px;
+    }
+
+    .box-3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-3 .btn {
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .escrita {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .adress p {
+        margin-left: 0;
+        font-size: 14px;
+    }
+}
+
+/* ===== TABLETS (481px a 768px) ===== */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* Menu e Header */
+    .menu {
+        height: 100px;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .itens {
+        gap: 20px;
+    }
+
+    .itens a {
+        font-size: 16px;
+    }
+
+    /* Container Principal */
+    .container {
+        margin-top: 40px;
+    }
+
+    .primavera img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .objetos {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .objetos p {
+        font-size: 22px;
+    }
+
+    div [class*=box] {
+        width: 80%;
+    }
+
+    .btn {
+        width: 220px;
+        font-size: 14px;
+    }
+
+    /* Frase */
+    .frase {
+        font-size: 32px;
+        margin: 50px 20px;
+        padding: 30px 20px;
+    }
+
+    /* Produtos */
+    h6 {
+        font-size: 20px;
+    }
+
+    .produtos {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .produtos img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .acesse {
+        font-size: 20px;
+    }
+
+    .acesse .btn {
+        width: 280px;
+    }
+
+    /* About */
+    .about {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .quemsomos h1 {
+        font-size: 28px;
+    }
+
+    .about .sobre {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about .foto img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about .texto {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+    }
+
+    .rodape-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    #rodapeimg img {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .final {
+        gap: 30px;
+    }
+
+    .two {
+        margin-top: 0;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .two input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .box-3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-3 .btn {
+        width: 280px;
+        margin-left: 0;
+    }
+
+    .escrita {
+        text-align: center;
+    }
+
+    .adress p {
+        margin-left: 0;
+    }
+}
+
+/* ===== DESKTOP PEQUENO (769px a 1024px) ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Menu */
+    .menu {
+        padding: 20px 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .itens {
+        gap: 25px;
+    }
+
+    .itens a {
+        font-size: 16px;
+    }
+
+    /* Container Principal */
+    .objetos {
+        margin-left: 100px;
+    }
+
+    .objetos p {
+        font-size: 28px;
+    }
+
+    /* Frase */
+    .frase {
+        font-size: 32px;
+        margin: 60px 30px;
+    }
+
+    /* Produtos */
+    .produtos {
+        gap: 30px;
+    }
+
+    .produtos img {
+        height: 350px;
+        width: 280px;
+    }
+
+    /* About */
+    .about .sobre {
+        gap: 40px;
+    }
+
+    .about .foto img {
+        max-width: 380px;
+    }
+
+    .about .texto {
+        max-width: 500px;
+    }
+
+    /* Footer */
+    .box-3 .btn {
+        width: 400px;
+    }
+
+    #rodapeimg img {
+        width: 500px;
+    }
+}
+
+/* ===== NOTEBOOK GRANDE (1025px a 1440px) ===== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    /* Menu */
+    .menu {
+        height: 140px;
+        padding: 20px 40px;
+    }
+
+    .logo img {
+        height: 85px;
+    }
+
+    .itens {
+        gap: 35px;
+    }
+
+    .itens a {
+        font-size: 18px;
+    }
+
+    /* Container Principal */
+    .container {
+        margin-top: 30px;
+    }
+
+    .primavera img {
+        margin-bottom: 50px;
+        height: auto;
+        width: 500px;
+        height: 200px;
+    }
+
+    .objetos {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: 240px;
+        gap: 40px;
+    }
+
+    .objetos p {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div [class*=box] {
+        width: 40%;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 16px;
+    }
+
+    /* Frase */
+    .frase {
+        font-size: 44px;
+        margin: 80px;
+        padding: 40px 60px;
+        line-height: 1.6;
+    }
+
+    /* Produtos */
+    h6 {
+        font-size: 22px;
+        margin: 30px 0;
+    }
+
+    .hero2 {
+        margin-bottom: -60px;
+    }
+
+    .produtos {
+
+        gap: 40px;
+        margin-top: 55px;
+    }
+
+    .produtos img {
+        height: 450px;
+
+    }
+
+    .acesse {
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+
+
+    .acesse .btn {
+        width: 405px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    /* About */
+    .about {
+        height: auto;
+        padding: 60px 40px;
+    }
+
+    .quemsomos h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .about .sobre {
+        gap: 50px;
+        margin-top: 40px;
+    }
+
+    /* Footer */
+    footer {
+        height: 500px;
+    }
+
+    .rodape-container {
+        gap: 50px;
+    }
+
+    #rodapeimg img {
+        height: 280px;
+        width: 650px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+
+    .final {
+        gap: 40px;
+    }
+
+    .two {
+        margin-top: 100px;
+        gap: 25px;
+    }
+
+    .two input {
+        width: 320px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .box-3 {
+        gap: 70px;
+    }
+
+    .box-3 .btn {
+        width: 500px;
+        font-size: 16px;
+    }
+
+    .escrita {
+        font-size: 16px;
+    }
+
+    .adress p {
+        font-size: 16px;
+    }
+}
+
+/* ===== DESKTOP EXTRA LARGE (acima de 1440px) ===== */
+@media (min-width: 1441px) {
+
+    /* Menu */
+    .menu {
+        height: 160px;
+        padding: 25px 50px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    .itens {
+        gap: 50px;
+    }
+
+    .itens a {
+        font-size: 20px;
+    }
+
+    /* Container Principal */
+    .container {
+        margin-top: 100px;
+    }
+
+    .primavera img {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .objetos {
+        margin-left: 400px;
+        gap: 50px;
+    }
+
+    .objetos p {
+        font-size: 50px;
+        line-height: 1.4;
+    }
+
+    div [class*=box] {
+        width: 40%;
+    }
+
+    .btn {
+        width: 250px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    /* Frase */
+    .frase {
+        font-size: 50px;
+        margin: 100px;
+        padding: 50px 80px;
+        line-height: 1.7;
+    }
+
+    /* Produtos */
+    h6 {
+        font-size: 26px;
+        margin: 50px 0;
+    }
+
+    .hero2 {
+        min-height: 90vh;
+    }
+
+    .produtos {
+        gap: 60px;
+        margin-top: 80px;
+    }
+
+    .produtos img {
+        height: 500px;
+        width: 400px;
+    }
+
+    .acesse {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .acesse .btn {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    /* About */
+    .about {
+        height: auto;
+        padding: 80px 60px;
+    }
+
+    .quemsomos h1 {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    .about .sobre {
+        gap: 80px;
+        margin-top: 50px;
+    }
+
+    .about .foto img {
+        max-width: 480px;
+    }
+
+    .about .texto {
+        max-width: 650px;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    /* Footer */
+    footer {
+        height: 600px;
+    }
+
+    .rodape-container {
+        gap: 60px;
+    }
+
+    #rodapeimg img {
+        height: 300px;
+        width: 700px;
+        margin-left: 140px;
+        margin-top: 80px;
+    }
+
+    .final {
+        gap: 50px;
+    }
+
+    .two {
+        margin-top: 130px;
+        gap: 30px;
+    }
+
+    .two input {
+        width: 332px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .box-3 {
+        gap: 80px;
+    }
+
+    .box-3 .btn {
+        width: 550px;
+        font-size: 18px;
+    }
+
+    .escrita {
+        font-size: 16px;
+    }
+
+    .adress p {
+        font-size: 16px;
+    }
+}
+
+/* ===== ORIENTAÇÃO LANDSCAPE EM CELULARES ===== */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .menu {
+        height: auto;
+        padding: 10px;
+    }
+
+    .primavera img {
+        max-width: 150px;
+    }
+
+    .objetos {
+        margin-top: 10px;
+    }
+}
